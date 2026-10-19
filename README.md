@@ -18,6 +18,8 @@ That 20% is what I build.
 
 In June 2026 I founded **[B Squared Software Development](https://bsquared.software)** with Paige. We build bespoke software for UK businesses: line-of-business systems, internal tools, customer portals and the integrations between them.
 
+More and more of that work is AI: agents that work inside a business's own systems and ask before they change anything, extraction that turns documents into structured data, and tests that show whether a model is right before anyone relies on it.
+
 - **Fixed price, scoped in writing.** You know what you're getting and what it costs before anything is built.
 - **One senior engineer, end to end.** The person who scopes the work writes it and ships it. No hand-offs.
 - **You own it from day one.** The code, the hosting and the accounts are in your name, so nobody is locked in to their developer.
@@ -35,6 +37,7 @@ If you know a business that's still held together by a spreadsheet, I'd love an 
 | Project | What it is |
 |---|---|
 | **Fortium**<br><sub>Accountancy · 2026</sub> | A platform of six applications replacing an accountancy practice's end-of-life practice-management system: a staff dashboard, a client portal, document extraction for invoices and catalogue data, and a NestJS API with typed contracts shared by every frontend. Live and in daily use. |
+| **Fortium AI**<br><sub>Accountancy · 2026</sub> | The AI layer across the same platform. A staff assistant that looks things up and takes actions through permission-checked tools, and always asks before it writes. Answers grounded in the accounting standards and the firm's own documents, with sources (pgvector). Document classification and extraction on background queues. And a toolbox for tax and accounts prep where the model reads the paperwork and deterministic engines do the maths, checked to the penny by independent Python verifiers. Behind it: an evaluation harness, prompt-injection testing and a provider layer that runs on Claude or open models. |
 | **[Curbed](https://curbed.cab)**<br><sub>Our own product · 2026</sub> | Multi-tenant fleet-damage software: drivers report damage by scanning a QR code, mechanics work through the repairs and managers see the whole fleet. Live with a taxi operator in the Netherlands. |
 | **Project Commander**<br><sub>Construction · 2024–2026</sub> | A multi-tenant project management platform for the UK construction industry, from first commit to production, now serving 10+ client organisations. Next.js and PostgreSQL, with a NestJS API, Redis caching, real-time updates and Xero and Sage integrations. Alongside it: a single sign-on server, a shared component library and a report engine that builds PDF and Word documents from templates. |
 | **VAPTA**<br><sub>Transport · 2021–2022</sub> | Six connected platforms for fleet and workshop management, serving 10,000+ vehicles and 20,000+ drivers across the UK: a DVSA Earned Recognition accredited inspection tool, workshop management with Sage, Xero and QuickBooks integrations, parts procurement, barcode stock control and a driver walkaround app. |
@@ -78,12 +81,13 @@ I started as a junior developer at an agency. Two weeks in, the creative lead an
 
 | Area | Tools |
 |---|---|
-| **Languages** | TypeScript, JavaScript, Swift, PHP |
+| **Languages** | TypeScript, JavaScript, Python, Swift, PHP |
 | **Frontend** | Next.js, React, SwiftUI |
 | **Backend** | NestJS, Node.js, REST, Socket.IO |
 | **Data** | PostgreSQL, Redis, Firebase |
 | **Infrastructure** | Docker, self-hosted Linux, CI/CD pipelines |
-| **Integrations** | Xero, Sage, QuickBooks, single sign-on |
+| **AI** | Claude API, open models (Ollama), tool-use agents, MCP servers, RAG with pgvector, structured and vision extraction, evals |
+| **Integrations** | Xero, Sage, QuickBooks, HMRC, Companies House, single sign-on |
 
 <br>
 
