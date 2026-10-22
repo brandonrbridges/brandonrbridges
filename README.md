@@ -67,6 +67,7 @@ I started as a junior developer at an agency. Two weeks in, the creative lead an
   <img alt="04 Open source" src="assets/title-oss-light.png" width="100%">
 </picture>
 
+- **[nodeterm](https://github.com/eneskirca/nodeterm)**: a canvas for running AI coding agents side by side (2,000+ stars), and the tool I run my working day in. I contribute macOS performance and reliability work. On my own machine, with around 20 agents running, the GPU process dropped from 50–86% of a core to about 7% and its memory roughly halved. There are also fixes for reboots and unplugged drives. [My pull requests](https://github.com/eneskirca/nodeterm/pulls?q=author%3Abrandonrbridges) · [the overview](https://github.com/eneskirca/nodeterm/issues/1276).
 - **[Thought Desk](https://github.com/kusule1351-hue/thought-desk/issues/1)**: performance fixes for a new open-source notes app. On a 50,000-row table, typing in another page went from freezing the window for 4.4 s to not at all, and a save that could wait 38 s behind search now takes under 16 ms. Six PRs, done pro bono.
 - **[Vigil](https://github.com/bsquared-software/vigil)**: a native macOS server monitor with live metrics, Docker, a terminal and files for your Linux servers, all over SSH.
 - **[Lumen](https://github.com/bsquared-software/lumen)**: a native macOS menu bar display manager for monitors, brightness, resolutions and presets.
